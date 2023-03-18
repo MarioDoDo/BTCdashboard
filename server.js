@@ -5,7 +5,7 @@ const {SocksProxyAgent} = require('socks-proxy-agent');
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, '../dist')));
+app.use(express.static(path.join(__dirname, './dist')));
 
 const fetchTor = async (url) => {
     try {
