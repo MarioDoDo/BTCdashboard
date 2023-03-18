@@ -1,0 +1,43 @@
+{
+  "name": "btc dashboard",
+  "short_name": "btc dashboard",
+  "description": "Shows data from bitcoin node",
+  "categories": [
+    "bitcoin",
+    "mempool",
+    "blockchain",
+    "dashboard"
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/assets/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#1f1f1f",
+  "background_color": "#1f1f1f",
+  "display": "standalone",
+  "orientation": "portrait"
+}
